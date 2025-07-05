@@ -63,7 +63,136 @@ SET have_you_ever_had_suicidal_thoughts = 'True' WHERE have_you_ever_had_suicida
 UPDATE [dbo].[Depression+Student+Dataset]
 SET have_you_ever_had_suicidal_thoughts = 'False' WHERE have_you_ever_had_suicidal_thoughts = '0';
 
+
+
 UPDATE [dbo].[Depression+Student+Dataset]
 SET Family_History_of_Mental_Illness = 'True' WHERE Family_History_of_Mental_Illness = '1';
 UPDATE [dbo].[Depression+Student+Dataset]
 SET Family_History_of_Mental_Illness = 'False' WHERE Family_History_of_Mental_Illness = '0';
+
+#📊 Tableau Dashboard Overview
+Academic Pressure vs Student Count – Bar chart
+
+Financial Stress vs Student Count – Bubble chart
+
+Study Hours vs Student Count – Line chart
+
+Sleep Duration vs Student Count – Donut chart
+
+Student Satisfaction vs Student Count – Bar chart
+
+#📈 Insights
+Academic Pressure
+
+AP1 and AP3 have high student counts; AP2 is lowest.
+
+Financial Stress
+
+FS1 and FS2 dominate; severe FS levels are less common.
+
+Study Hours
+
+Most students study ~10 hrs/week; moderate workloads are typical.
+
+Sleep Duration
+
+7–8 hrs and >8 hrs are most common; <5 hrs also significant.
+
+Student Satisfaction
+
+Higher satisfaction levels (SS3, SS4) dominate.
+
+Lower satisfaction (SS1) is underrepresented.
+
+#🔍 Key Takeaways
+Moderate study schedules and sleep are common among students.
+
+Financial stress and low satisfaction may contribute more to depression.
+
+Preventive mental health strategies should focus on early signs like dissatisfaction or poor sleep patterns.
+
+#🎓 Learning Outcomes
+Data cleaning and transformation using SQL
+
+Building interactive dashboards with Tableau
+
+Extracting actionable insights from real-world data
+
+Storytelling through data visualization
+
+#📎 Files Included
+Depression+Student+Dataset.csv – Raw dataset
+
+Student_Depression_Data_Analysis_Final_Readme.pdf – Full walkthrough
+📊 Tableau Dashboard Overview
+Academic Pressure vs Student Count – Bar chart
+
+Financial Stress vs Student Count – Bubble chart
+
+Study Hours vs Student Count – Line chart
+
+Sleep Duration vs Student Count – Donut chart
+
+Student Satisfaction vs Student Count – Bar chart
+
+📈 Insights
+Academic Pressure
+
+AP1 and AP3 have high student counts; AP2 is lowest.
+
+Financial Stress
+
+FS1 and FS2 dominate; severe FS levels are less common.
+
+Study Hours
+
+Most students study ~10 hrs/week; moderate workloads are typical.
+
+Sleep Duration
+
+7–8 hrs and >8 hrs are most common; <5 hrs also significant.
+
+Student Satisfaction
+
+Higher satisfaction levels (SS3, SS4) dominate.
+
+Lower satisfaction (SS1) is underrepresented.
+
+🔍 Key Takeaways
+Moderate study schedules and sleep are common among students.
+
+Financial stress and low satisfaction may contribute more to depression.
+
+Preventive mental health strategies should focus on early signs like dissatisfaction or poor sleep patterns.
+
+🎓 Learning Outcomes
+Data cleaning and transformation using SQL
+
+Building interactive dashboards with Tableau
+
+Extracting actionable insights from real-world data
+
+Storytelling through data visualization
+
+#📎 Files Included
+Depression+Student+Dataset.csv – Raw dataset
+
+Readme.pdf – Full walkthrough
+
+Student_depression_project.png – Tableau screenshot 
+
+Student_depression(SQL+TABLEAU).twbx – Tableau workbook file 
+SQL_Student_depression.sql -sql query
+
+📌 Author
+Ashwini Koppula
+🔗 GitHub Profile
+
+.png – Tableau screenshot 
+.twbx – Tableau workbook file
+.sql-sql files ssms
+📌 Author
+Ashwini Koppula
+🔗 GitHub Profile
+
+
