@@ -22,7 +22,7 @@ This project explores mental health factors among students using SQL Server for 
 
 ---
 
-## 🔧 SQL Preprocessing Steps
+# 🔧 SQL Preprocessing Steps
 
 ```sql
 -- Create database
